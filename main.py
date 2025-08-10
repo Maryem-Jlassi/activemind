@@ -30,7 +30,7 @@ class Config:
     MODEL_NAME = "ollama/llama3.2:latest"
     API_BASE = "http://localhost:11434"
     SESSION_DURATION_MINUTES = 20
-    ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "sk_b0b1edcc7ae4ae43503cb6f52f3c4768b8f6a70c4f82ee32")
+    ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "key_api")
     ELEVENLABS_VOICE_ID = "pNInz6obpgDQGcFmaJgB"  # Adam voice
     TTS_LANGUAGE = "en"
     DATABASE_PATH = "coach_sessions.db"
@@ -83,7 +83,7 @@ class ElevenLabsVoiceService:
         self.recognizer.pause_threshold = 0.8
     
     def text_to_speech_elevenlabs(self, text: str) -> Optional[bytes]:
-        if not self.api_key or self.api_key == "sk_b0b1edcc7ae4ae43503cb6f52f3c4768b8f6a70c4f82ee32":
+        if not self.api_key or self.api_key == "key_api":
             return None
             
         try:
