@@ -66,10 +66,11 @@ ActiveMind addresses this by delivering an **AI-driven sports psychology partner
 
  ## 👏 Acknowledgments
  
+  - **Global-Nation Hackathon 2** — This project was ideated, developed, and presented during the event, which inspired the creation of ActiveMind.
+
   -ElevenLabs — Voice synthesis API
 
   -Flask-SocketIO — Real-time backend communication
 
   -Framer Motion & Tailwind — UI polish  
-git clone https://github.com/YOUR_USERNAME/activemind.git
-cd activemind
+  
