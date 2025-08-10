@@ -34,6 +34,8 @@ ActiveMind addresses this by delivering an **AI-driven sports psychology partner
 - **Secondary:** Coaches, sports psychologists, and wellness programs looking for scalable tools.
 
 ---
+## 🤖 Video demo here : [https://drive.google.com/drive/folders/1ePcqYXi7HBopFxTcQOxUcdafpp27Jsf7?usp=drive_link]
+Due to the 1-minute time constraint, the demo video is shown at 2× speed, but in real use, the conversation flows naturally in real time
 
 
 ## 🛠 Tech Stack
